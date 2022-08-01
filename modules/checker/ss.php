@@ -204,7 +204,7 @@ if(strpos($message, "/ss ") === 0 || strpos($message, "!ss ") === 0){
                 'text'=>"<b>Card:</b> <code>$lista</code>
 <b>Status -» CVV or CCN ✅
 Response -» Approved
-Gateway -» Stripe Auth 1
+Gateway -» Stripe Charge $1
 Time -» <b>$time</b><b>s</b>
 
 ------- Bin Info -------</b>
@@ -217,7 +217,7 @@ Time -» <b>$time</b><b>s</b>
 <b>----------------------------</b>
 
 <b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/rko69k_xd'>DANGBOY</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -231,7 +231,7 @@ Time -» <b>$time</b><b>s</b>
                 'text'=>"<b>Card:</b> <code>$lista</code>
 <b>Status -» API Down ❌
 Response -» Unknown
-Gateway -» Stripe Auth 1
+Gateway -» Stripe Charge $1
 Time -» <b>$time</b><b>s</b>
 
 ------- Bin Info -------</b>
@@ -244,7 +244,7 @@ Time -» <b>$time</b><b>s</b>
 <b>----------------------------</b>
 
 <b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/rko69k_xd'>DANGBOY</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
@@ -258,7 +258,7 @@ Time -» <b>$time</b><b>s</b>
                 'text'=>"<b>Card:</b> <code>$lista</code>
 <b>Status -» Dead ❌
 Response -» $errormessage
-Gateway -» Stripe Auth 1
+Gateway -» Stripe Charge $1
 Time -» <b>$time</b><b>s</b>
 
 ------- Bin Info -------</b>
@@ -271,7 +271,7 @@ Time -» <b>$time</b><b>s</b>
 <b>----------------------------</b>
 
 <b>Checked By <a href='tg://user?id=$userId'>$firstname</a></b>
-<b>Bot By: <a href='t.me/ninjanaveen'>ɴɪɴᴊᴀ ɴᴀᴠᴇᴇɴ</a></b>",
+<b>Bot By: <a href='t.me/rko69k_xd'>DANGBOY</a></b>",
                 'parse_mode'=>'html',
                 'disable_web_page_preview'=>'true'
                 
