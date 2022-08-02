@@ -48,10 +48,10 @@ $messagesec",
 	'reply_to_message_id'=> $message_id,
     'reply_markup'=>json_encode(['inline_keyboard' => [
         [
-          ['text' => "🇿🇦 Created By 🇿🇦", 'url' => "t.me/rko69k_xd"]
+          ['text' => "Created By", 'url' => "t.me/rko69k_xd"]
         ],
         [
-          ['text' => "🇿🇦 Source Code 🇿🇦", 'url' => "t.me/rko69k_xd"]
+          ['text' => "Source Code, 'url' => "t.me/live_cc,_chat"]
         ],
       ], 'resize_keyboard' => true])
         
@@ -95,14 +95,14 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'message_id'=>$callbackmessageid,
     'text'=>"<b>━━CC Checker Gates━━</b>
   
-<b>/ss ~ !ss - Stripe [Charge $1]</b>
-<b>/sm ~ !sm - Stripe [Merchant]</b>
-<b>/schk ~ !schk - User Stripe Merchant [Needs SK]</b>
+<b>/ss |!ss - Stripe [Charge $1]</b>
+<b>/sm |!sm - Stripe [Merchant]</b>
+<b>/schk |!schk - User Stripe Merchant [Needs SK]</b>
 
 <b>/apikey sk_live_xxx - Add SK Key for /schk gate</b>
 <b>/myapikey | !myapikey - View the added SK Key for /schk gate</b>
 
-<b>ϟ Join <a href='t.me/livecchc'>LIVECC</a></b>",
+<b>ϟ Join <a href='t.me/live_cc_chat'>LIVECC</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
@@ -118,13 +118,13 @@ if(strpos($message, "/cmds") === 0 || strpos($message, "!cmds") === 0){
     'message_id'=>$callbackmessageid,
     'text'=>"<b>━━Other Commands━━</b>
   
-<b>/me & !me</b> - Your Info
-<b>/stats & !stats</b> - Checker Stats
-<b>/key & !key</b> - SK Key Checker
-<b>/bin & !bin</b> - Bin Lookup
-<b>/iban & !iban</b> - IBAN Checker
+<b>/me |!me</b> - Your Info
+<b>/stats |!stats</b> - Checker Stats
+<b>/key |!key</b> - SK Key Checker
+<b>/bin |!bin</b> - Bin Lookup
+<b>/iban |!iban</b> - IBAN Checker
   
-  <b>ϟ Join <a href='t.me/livecchc'>LIVECC</a></b>",
+  <b>ϟ Join <a href='t.me/live_cc_chat'>LIVECC</a></b>",
     'parse_mode'=>'html',
     'disable_web_page_preview'=>true,
     'reply_markup'=>json_encode(['inline_keyboard'=>[
